@@ -36,7 +36,7 @@
 
 ## Predicate Utilities
 * A _predicate_ is a clause which states something about a subject. (_e.g., **is assigning**_ in _"Leon **is assigning** homework"_)
-* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](./Method\ Fundamentals/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](../Method\ Fundamentals/PredicateUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/PredicateUtilitiesTest.java) by completing each of the method stubs in the class [PredicateUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/PredicateUtilities.java).
 * Method Stubs to be completed
 	* `boolean isGreaterThan(int x, int y)`
 	* `boolean isLessThan(int x, int y)`
@@ -45,7 +45,7 @@
 
 
 ## Math Utilities
-* Ensure each of the test cases passes successfully in the class [TestMathUtilities](./Method\ Fundamentals/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](./Method\ Fundamentals/MathUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestMathUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/MathUtilities.java).
 * Method Stubs to be completed	
 	* `Integer add(int, int)`
 	* `Long add(long, long)`
