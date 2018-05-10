@@ -50,7 +50,7 @@ From here on down, this file is in MarkDown format. (Look it up. Use the Github 
 
 ## Predicate Utilities
 * A _predicate_ is a clause which states something about a subject. (_e.g., **is assigning**_ in _"Leon **is assigning** homework"_)
-* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](./Method\ Fundamentals/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](../Method\ Fundamentals/PredicateUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/PredicateUtilitiesTest.java) by completing each of the method stubs in the class [PredicateUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/PredicateUtilities.java).
 * Method Stubs to be completed
 	* `boolean isGreaterThan(int x, int y)`
 	* `boolean isLessThan(int x, int y)`
@@ -59,7 +59,7 @@ From here on down, this file is in MarkDown format. (Look it up. Use the Github 
 
 
 ## Math Utilities
-* Ensure each of the test cases passes successfully in the class [TestMathUtilities](./Method\ Fundamentals/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](./Method\ Fundamentals/MathUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestMathUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/MathUtilities.java).
 * Method Stubs to be completed	
 	* `Integer add(int, int)`
 	* `Long add(long, long)`
@@ -90,7 +90,7 @@ From here on down, this file is in MarkDown format. (Look it up. Use the Github 
 
 
 ## String Utilities
-* Ensure each of the test cases passes successfully in the class [TestStringUtilities](./Method\ Fundamentals/TestStringUtilities.java) by completing each of the method stubs in the class [StringUtilities](./Method\ FundaMentals/StringUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestStringUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/StringUtilities.java) by completing each of the method stubs in the class [StringUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/StringUtilitiesTest.java).
 * Method Stubs to be completed
 	* `String concatenation(String, String)`
 	* `String concatenation(int, String)`

@@ -76,7 +76,7 @@
 
 
 ## String Utilities
-* Ensure each of the test cases passes successfully in the class [TestStringUtilities](./Method\ Fundamentals/TestStringUtilities.java) by completing each of the method stubs in the class [StringUtilities](./Method\ FundaMentals/StringUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestStringUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/StringUtilities.java) by completing each of the method stubs in the class [StringUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/StringUtilitiesTest.java).
 * Method Stubs to be completed
 	* `String concatenation(String, String)`
 	* `String concatenation(int, String)`
