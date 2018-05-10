@@ -1,13 +1,45 @@
-package com.zipcodewilmington.danny_do_better_exercises;
 
-import org.junit.Assert;
-import org.junit.Test;
+
 import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
- * Created by dan on 6/14/17.
+ * The test class StringUtilitiesTest.
+ *
+ * @author  (your name)
+ * @version (a version number or a date)
  */
-public class TestStringUtilities {
+public class StringUtilitiesTest
+{
+    /**
+     * Default constructor for test class StringUtilitiesTest
+     */
+    public StringUtilitiesTest()
+    {
+    }
+
+    /**
+     * Sets up the test fixture.
+     *
+     * Called before every test case method.
+     */
+    @Before
+    public void setUp()
+    {
+    }
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @After
+    public void tearDown()
+    {
+    }
+    
     @Test
     public void getHelloWorldTest() {
         // : Given
@@ -115,7 +147,7 @@ public class TestStringUtilities {
         Character actual = StringUtilities.getMiddleCharacter(input);
 
         // : Then
-        Assert.assertEquals(expected.toString(), actual.toString());
+        assertEquals(expected.toString(), actual.toString());
     }
 
 
@@ -129,7 +161,7 @@ public class TestStringUtilities {
         Character actual = StringUtilities.getMiddleCharacter(input);
 
         // : Then
-        Assert.assertEquals(expected.toString(), actual.toString());
+        assertEquals(expected.toString(), actual.toString());
     }
 
 

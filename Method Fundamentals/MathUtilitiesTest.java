@@ -1,13 +1,49 @@
-package com.zipcodewilmington.danny_do_better_exercises;
 
-import org.junit.Test;
 
 import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
 /**
- * Created by dan on 6/14/17.
+ * The test class MathUtilitiesTest.
+ *
+ * @author  (your name)
+ * @version (a version number or a date)
  */
-public class TestMathUtilities {
-    private static volatile MathUtilities primativeTypes = new MathUtilities();
+public class MathUtilitiesTest
+{
+    private MathUtilities primativeTypes;
+          
+    /**
+     * Default constructor for test class MathUtilitiesTest
+     */
+    public MathUtilitiesTest()
+    {
+        primativeTypes = new MathUtilities();
+    }
+
+    /**
+     * Sets up the test fixture.
+     *
+     * Called before every test case method.
+     */
+    @Before
+    public void setUp()
+    {
+    }
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @After
+    public void tearDown()
+    {
+    }
+
+
 
     @Test
     public void testAdditions() {
@@ -78,21 +114,6 @@ public class TestMathUtilities {
         assertEquals(expected,actual, 0);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @Test
     public void testSubtractions(){
         // : Given
@@ -159,19 +180,6 @@ public class TestMathUtilities {
         // : Then
         assertEquals(expectedDouble,actualDouble, 0);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     @Test
     public void testDivision(){
@@ -240,23 +248,6 @@ public class TestMathUtilities {
         // : Then
         assertEquals(expectedDouble,actualDouble, 0);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     @Test
     public void testMultiplication(){

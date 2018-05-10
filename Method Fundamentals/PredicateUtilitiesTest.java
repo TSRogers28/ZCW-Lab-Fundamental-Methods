@@ -1,14 +1,46 @@
-package com.zipcodewilmington.danny_do_better_exercises;
 
-import org.junit.Test;
 
 import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
- * Created by dan on 6/14/17.
+ * The test class PredicateUtilitiesTest.
+ *
+ * @author  (your name)
+ * @version (a version number or a date)
  */
-public class TestPredicateUtilities {
-    private static volatile PredicateUtilities math = new PredicateUtilities();
+public class PredicateUtilitiesTest
+{
+    private PredicateUtilities math;
+    /**
+     * Default constructor for test class PredicateUtilitiesTest
+     */
+    public PredicateUtilitiesTest()
+    {
+        math = new PredicateUtilities();
+    }
+
+    /**
+     * Sets up the test fixture.
+     *
+     * Called before every test case method.
+     */
+    @Before
+    public void setUp()
+    {
+    }
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @After
+    public void tearDown()
+    {
+    }
 
     @Test
     public void testGreaterThanTrue() {
