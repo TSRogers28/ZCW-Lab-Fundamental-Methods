@@ -76,7 +76,7 @@
 
 
 ## String Utilities
-* Ensure each of the test cases passes successfully in the class [TestStringUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestStringUtilities.java) by completing each of the method stubs in the class [StringUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/StringUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestStringUtilities](./Method\ Fundamentals/TestStringUtilities.java) by completing each of the method stubs in the class [StringUtilities](./Method\ FundaMentals/StringUtilities.java).
 * Method Stubs to be completed
 	* `String concatenation(String, String)`
 	* `String concatenation(int, String)`
