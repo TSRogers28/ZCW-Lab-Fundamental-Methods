@@ -90,7 +90,7 @@ From here on down, this file is in MarkDown format. (Look it up. Use the Github 
 
 
 ## String Utilities
-* Ensure each of the test cases passes successfully in the class [TestStringUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/StringUtilities.java) by completing each of the method stubs in the class [StringUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/StringUtilitiesTest.java).
+* Ensure each of the test cases passes successfully in the class [TestStringUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/StringUtilitiesTest.java) by completing each of the method stubs in the class [StringUtilities](https://git.zipcode.rocks/ZipCodeWilmington/ZCW-Lab-Fundamental-Methods/src/branch/master/Method%20Fundamentals/StringUtilities.java).
 * Method Stubs to be completed
 	* `String concatenation(String, String)`
 	* `String concatenation(int, String)`
