@@ -36,7 +36,7 @@
 
 ## Predicate Utilities
 * A _predicate_ is a clause which states something about a subject. (_e.g., **is assigning**_ in _"Leon **is assigning** homework"_)
-* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/PredicateUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestPredicateUtilities](./Method\ Fundamentals/TestPredicateUtilities.java) by completing each of the method stubs in the class [PredicateUtilities](../Method\ Fundamentals/PredicateUtilities.java).
 * Method Stubs to be completed
 	* `boolean isGreaterThan(int x, int y)`
 	* `boolean isLessThan(int x, int y)`
@@ -45,7 +45,7 @@
 
 
 ## Math Utilities
-* Ensure each of the test cases passes successfully in the class [TestMathUtilities](./src/test/java/com/zipcodewilmington/danny_do_better_exercises/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](./src/main/java/com/zipcodewilmington/danny_do_better_exercises/MathUtilities.java).
+* Ensure each of the test cases passes successfully in the class [TestMathUtilities](./Method\ Fundamentals/TestMathUtilities.java) by completing each of the method stubs in the class [MathUtilities](./Method\ Fundamentals/MathUtilities.java).
 * Method Stubs to be completed	
 	* `Integer add(int, int)`
 	* `Long add(long, long)`
@@ -88,6 +88,4 @@
 	* `String getSecondWord(String)`
 	* `String reverse(String)`
 	
-	
-## Whats next?
-* The next lab can be found [here](https://github.com/Zipcoder/ZCW-MicroLabs-OOP-AliceAndBob).
+
