@@ -27,12 +27,10 @@
     * `git commit` your added files to the list of your `staged` files.
     * `git push` your staged files to your remote repository.
     * submit a `pull request` which compares Zipcoder `master` to your `master`.
-2. Begin by first ensuring the `main` method in your `ZipcodeRocks` class prints `"Zipcode Rocks!"` upon execution.  
-3. Complete each of the method stubs in each of the `main` classes provided.
-    * `main` classes are located in `src.main.java.com.zipcodewilmington.danny_do_better_exercises`
+2. Complete each of the method stubs in each of the `main` classes provided.
     * There are comments above each method stub to describe the expected behavior.
-4. Upon completion, open and run the `TestSuite` class to ensure that all tests have 100% success.
-    * `TestSuite` is located in `src.test.java.com.zipcodewilmington.danny_do_better_exercises`
+3. Make sure you Run Tests
+
 
 ## Predicate Utilities
 * A _predicate_ is a clause which states something about a subject. (_e.g., **is assigning**_ in _"Leon **is assigning** homework"_)
