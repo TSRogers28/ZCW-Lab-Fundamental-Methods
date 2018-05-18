@@ -14,14 +14,6 @@ import org.junit.Test;
 public class MathUtilitiesTest
 {
     private MathUtilities primativeTypes;
-          
-    /**
-     * Default constructor for test class MathUtilitiesTest
-     */
-    public MathUtilitiesTest()
-    {
-        primativeTypes = new MathUtilities();
-    }
 
     /**
      * Sets up the test fixture.
@@ -29,8 +21,8 @@ public class MathUtilitiesTest
      * Called before every test case method.
      */
     @Before
-    public void setUp()
-    {
+    public void setUp(){
+        primativeTypes = new MathUtilities();
     }
 
     /**
@@ -287,7 +279,7 @@ public class MathUtilitiesTest
         // : Given
         byte multiplicand = 16;
         byte multiplier = 14;
-        byte expectedByte = 64;
+        byte expectedByte = -32;
         // : When
         byte actualByte = primativeTypes.multiply(multiplicand, multiplier);
         // : Then

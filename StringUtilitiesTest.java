@@ -11,15 +11,8 @@ import org.junit.Test;
  * @author  (your name)
  * @version (a version number or a date)
  */
-public class StringUtilitiesTest
-{
-    /**
-     * Default constructor for test class StringUtilitiesTest
-     */
-    public StringUtilitiesTest()
-    {
-    }
-
+public class StringUtilitiesTest {
+    private StringUtilities stringUtilities;
     /**
      * Sets up the test fixture.
      *
@@ -28,6 +21,7 @@ public class StringUtilitiesTest
     @Before
     public void setUp()
     {
+        stringUtilities = new StringUtilities();
     }
 
     /**
@@ -39,14 +33,14 @@ public class StringUtilitiesTest
     public void tearDown()
     {
     }
-    
+
     @Test
     public void getHelloWorldTest() {
         // : Given
         String expected = "Hello World";
 
         // : When
-        String actual = StringUtilities.getHelloWorld();
+        String actual = stringUtilities.getHelloWorld();
 
         // : Then
         assertEquals(expected, actual);
@@ -61,7 +55,7 @@ public class StringUtilitiesTest
         String expected = "Hello Java";
 
         // : When
-        String actual = StringUtilities.concatenation(one,two);
+        String actual = stringUtilities.concatenation(one,two);
 
 
         // : Then
@@ -77,7 +71,7 @@ public class StringUtilitiesTest
         String expected = "1 Java";
 
         // : When
-        String actual = StringUtilities.concatenation(one,two);
+        String actual = stringUtilities.concatenation(one,two);
 
 
         // : Then
@@ -91,7 +85,7 @@ public class StringUtilitiesTest
         String expected = "Hel";
 
         // : When
-        String actual = StringUtilities.getPrefix(input);
+        String actual = stringUtilities.getPrefix(input);
 
         // : Then
         assertEquals(expected, actual);
@@ -104,7 +98,7 @@ public class StringUtilitiesTest
         String expected = "llo";
 
         // : When
-        String actual = StringUtilities.getSuffix("Hello");
+        String actual = stringUtilities.getSuffix("Hello");
 
         // : Then
         assertEquals(expected, actual);
@@ -117,7 +111,7 @@ public class StringUtilitiesTest
         String comparableValue = "Zipcode";
 
         // : When
-        boolean actual = StringUtilities.compareTwoStrings(inputValue, comparableValue);
+        boolean actual = stringUtilities.compareTwoStrings(inputValue, comparableValue);
 
         // : Then
         assertTrue(actual);
@@ -131,7 +125,7 @@ public class StringUtilitiesTest
         String comparableValue = "Zipcodee";
 
         // : When
-        boolean actual = StringUtilities.compareTwoStrings(inputValue, comparableValue);
+        boolean actual = stringUtilities.compareTwoStrings(inputValue, comparableValue);
 
         // : Then
         assertFalse(actual);
@@ -144,7 +138,7 @@ public class StringUtilitiesTest
         Character expected = 'c';
 
         // : When
-        Character actual = StringUtilities.getMiddleCharacter(input);
+        Character actual = stringUtilities.getMiddleCharacter(input);
 
         // : Then
         assertEquals(expected.toString(), actual.toString());
@@ -158,7 +152,7 @@ public class StringUtilitiesTest
         Character expected = 'c';
 
         // : When
-        Character actual = StringUtilities.getMiddleCharacter(input);
+        Character actual = stringUtilities.getMiddleCharacter(input);
 
         // : Then
         assertEquals(expected.toString(), actual.toString());
@@ -172,7 +166,7 @@ public class StringUtilitiesTest
         String expected = "Zipcode";
 
         // : When
-        String actual = StringUtilities.getFirstWord(input);
+        String actual = stringUtilities.getFirstWord(input);
 
         // : Then
         assertEquals(expected, actual);
@@ -186,7 +180,7 @@ public class StringUtilitiesTest
         String expected = "Wilmington";
 
         // : When
-        String actual = StringUtilities.getSecondWord(input);
+        String actual = stringUtilities.getSecondWord(input);
 
         // : Then
         assertEquals(expected, actual);
@@ -200,7 +194,33 @@ public class StringUtilitiesTest
 
 
         // : When
-        String actual = StringUtilities.reverse(input);
+        String actual = stringUtilities.reverse(input);
+
+        // : Then
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void removeWhitespace(){
+        // : Given
+        String input = "It's a beautiful day in this neighborhood";
+        String expected = "It'sabeautifuldayinthisneighborhood";
+
+        // : When
+        String actual = stringUtilities.removeWhitespace(input);
+
+        // : Then
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void trimWhitespaceInTheBegginningAndEnd(){
+        // : Given
+        String input = "    Zipcode Wilmington ";
+        String expected = "Zipcode Wilmington";
+
+        // : When
+        String actual = stringUtilities.trim(input);
 
         // : Then
         assertEquals(expected, actual);

@@ -14,13 +14,6 @@ import org.junit.Test;
 public class PredicateUtilitiesTest
 {
     private PredicateUtilities math;
-    /**
-     * Default constructor for test class PredicateUtilitiesTest
-     */
-    public PredicateUtilitiesTest()
-    {
-        math = new PredicateUtilities();
-    }
 
     /**
      * Sets up the test fixture.
@@ -30,16 +23,7 @@ public class PredicateUtilitiesTest
     @Before
     public void setUp()
     {
-    }
-
-    /**
-     * Tears down the test fixture.
-     *
-     * Called after every test case method.
-     */
-    @After
-    public void tearDown()
-    {
+        math = new PredicateUtilities();
     }
 
     @Test
